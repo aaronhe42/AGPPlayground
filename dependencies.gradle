@@ -1,0 +1,7 @@
+ext.versions = [
+        'supportLib': '27.0.2',
+        'buildTools': '27.0.2',
+        'compileSdk': 27,
+        'targetSdk' : 25,
+        'minSdk'    : 21
+]

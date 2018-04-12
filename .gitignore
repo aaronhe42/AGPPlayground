@@ -17,3 +17,6 @@ jniLibs
 build
 local.properties
 reports
+
+# Fabric configs
+fabric.properties

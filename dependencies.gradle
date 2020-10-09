@@ -1,4 +1,4 @@
-ext.versions = ['buildTools': '28.0.3',
-                'compileSdk': 28,
-                'targetSdk' : 28,
+ext.versions = ['buildTools': '29.0.3',
+                'compileSdk': 29,
+                'targetSdk' : 29,
                 'minSdk'    : 23]

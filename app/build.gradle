@@ -17,6 +17,11 @@ android {
       minifyEnabled true
     }
   }
+  testOptions {
+    unitTests {
+      includeAndroidResources = true
+    }
+  }
 }
 
 dependencies {
@@ -24,4 +29,7 @@ dependencies {
   implementation "androidx.appcompat:appcompat:1.0.2"
 
   testImplementation 'junit:junit:4.12'
+  testImplementation "org.robolectric:robolectric:4.5-alpha-1"
+  testImplementation 'org.mockito:mockito-core:2.28.2'
+  testImplementation 'com.nhaarman.mockitokotlin2:mockito-kotlin:2.2.0'
 }
